@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.hero{
+    width: 100%;
+    height: 700px;
+    background: url('hero5.jpg') no-repeat center/cover;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 48px;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    width: 88%;
+    border-bottom: 2px solid white;
+    padding: 10px 10px;
+}
+.nav-right ul{
+    display: flex;
+    padding: 0 10px;
+}
+.nav-right ul li{
+    list-style: none;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 0 15px;
+    color: white;
+}
+
+.contents{
+    color: white;
+    padding: 60px 100px;
+}
+.contents h4{
+    text-transform: uppercase;
+}
+.contents h3{
+    font-size: 180px;
+    font-weight: 300;
+    margin-top: -40px;
+}
+.contents p{
+    font-size: 28px;
+}
+button{
+    background: #1c69d4;
+    border: 2px solid rgba(0, 0, 255, 0);
+    width: 160px;
+    height: 50px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+#btn2{
+    background: #1c69d400;
+    width: 180px;
+    height: 50px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 10px; 
+    margin-left: 10px; 
+    border: 2px solid white;
+}
+
+/* cards */
+.card-section{
+    background: white;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-section h3{
+    color: grey;
+    text-transform: uppercase;
+    padding-top: 40px;
+}
+.card-section h1{
+    text-transform: uppercase;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards img{
+    width: 350px;
+    padding: 0 40px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.card h1{
+    font-weight: 200;
+}
+#card-btn{
+    background: #1c69d400;
+    border: 2px solid rgb(0, 0, 0);
+    width: 140px;
+    height: 50px;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 10px;  
+}
+
+/* hero2 */
+.hero2{
+    width: 100%;
+    height: 520px;
+    background: url('hero6.jpg') no-repeat center/cover;
+}
+
+/* hero3 */
+.hero3{
+    width: 100%;
+    height: 520px;
+    background: white;
+    color: black;
+    
+}
+.hero3 img{
+    width: 50%;
+    height: 20%;
+    
+}
+
+.hero3contents{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding: 50px 110px;
+}
+.contents2{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+}
+.contents2 h4{
+    color: grey;
+    text-transform: uppercase;
+}
+.contents2 h3{
+    font-size: 54px;
+    font-weight: 300;
+}
+.buttons{
+    display: flex;
+    gap: 5px;
+}
+
+.x{
+    background: rgba(255, 0, 0, 0);
+    border: 2px solid black;
+    color: black
+}
